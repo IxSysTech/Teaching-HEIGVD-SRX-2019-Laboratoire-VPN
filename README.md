@@ -94,6 +94,7 @@ Un « protocol » différent de `up` indique la plupart du temps que l’interfa
 
 **Réponse :**  
 
+Aucun problème rencontré.
 ---
 
 
@@ -130,7 +131,7 @@ Pour votre topologie il est utile de contrôler la connectivité entre :
 ---
 
 **Réponse :**  
-
+Oui tous les pings ont fonctionné
 ---
 
 - Activation de « debug » et analyse des messages ping.
@@ -233,7 +234,7 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 ---
 
 **Réponse :**  
-
+La commande permet d'afficher les clés détenues par les appareils.
 ---
 
 ## Configuration IPsec
@@ -326,7 +327,7 @@ Pensez à démarrer votre sniffer sur la sortie du routeur R2 vers internet avan
 ---
 
 **Réponse :**  
-
+Nous pouvons constater que le ping passe correctement pas le routeur R1.
 ---
 
 **Question 7: Reportez dans votre rapport une petite explication concernant les différents « timers » utilisés par IKE et IPsec dans cet exercice (recherche Web). :**
@@ -334,7 +335,7 @@ Pensez à démarrer votre sniffer sur la sortie du routeur R2 vers internet avan
 ---
 
 **Réponse :**  
-
+Permet de regénérer une clé et de la partager chaque 30 minutes (lifetime 1800)
 ---
 
 
@@ -348,7 +349,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-
+IKE
 ---
 
 
@@ -357,7 +358,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-
+Le transform set strong est en mode tunnel, le Le transform set default est en mode transport
 ---
 
 
@@ -366,7 +367,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-
+r2 = aes  r1 = 3des
 ---
 
 
@@ -375,7 +376,7 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-
+r1 = r2 = hmac
 ---
 
 
