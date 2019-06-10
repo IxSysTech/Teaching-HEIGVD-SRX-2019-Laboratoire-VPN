@@ -157,7 +157,7 @@ Pour déclencher et pratiquer les captures vous allez « pinger » votre routeur
 **Screenshots :**  
 
 ![](./images/Q3.PNG)
-
+=======
 ---
 
 ## Configuration VPN LAN 2 LAN
@@ -230,7 +230,7 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 **Réponse :**  
 
 ![](./images/Q4-1.PNG)
-
+=======
 ---
 
 **Question 5: Utilisez la commande `show crypto isakmp key` et faites part de vos remarques :**
@@ -242,7 +242,7 @@ La commande permet d'afficher les clés détenues par les appareils.
 ---
 
 ![](./images/Q4-2.PNG)
-
+=======
 ## Configuration IPsec
 
 Nous allons maintenant configurer IPsec de manière identique sur les deux routeurs. Pour IPsec nous allons utiliser les paramètres suivants :
