@@ -349,7 +349,8 @@ En vous appuyant sur les notions vues en cours et vos observations en laboratoir
 ---
 
 **Réponse :**  
-IKE
+
+Les captures Wireshark montrent que nous utilisons ESP.
 ---
 
 
@@ -357,8 +358,9 @@ IKE
 
 ---
 
-**Réponse :**  
-Le transform set strong est en mode tunnel, le Le transform set default est en mode transport
+**Réponse :** 
+
+Nous constatons que l'entete ajoutée n'ess pas la meme que l'entete utilisée avant. Nous pouvons donc en conclure que c'est le mode tunnel qui est utilisé ici.
 ---
 
 
@@ -367,7 +369,8 @@ Le transform set strong est en mode tunnel, le Le transform set default est en m
 ---
 
 **Réponse :**  
-r2 = aes  r1 = 3des
+
+L'intégralité du paquet est chiffré. Nous pouvons le vérifier dans les capture Wireshark que le header est différents. L'algorithme utilisé est AES-192.
 ---
 
 
@@ -376,7 +379,8 @@ r2 = aes  r1 = 3des
 ---
 
 **Réponse :**  
-r1 = r2 = hmac
+
+L'algorithme d'authentification utilisé est SHA-MAC. Le paquet en entier est authentifié.
 ---
 
 
@@ -386,4 +390,5 @@ r1 = r2 = hmac
 
 **Réponse :**  
 
+L'intégralité des paquets est vérifié, car nous utilisons ESP
 ---
