@@ -156,7 +156,7 @@ Pour déclencher et pratiquer les captures vous allez « pinger » votre routeur
 
 **Screenshots :**  
 
-![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q3.PNG)
+![](https://github.com/IxSysTech/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/edit/master/images/Q3.PNG)
 
 ---
 
@@ -229,7 +229,7 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 
 **Réponse :**  
 
-![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q4-1.PNG)
+![](https://github.com/IxSysTech/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/edit/master/images/Q4-1.PNG)
 
 ---
 
@@ -242,7 +242,7 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 La commande permet d'afficher les clés détenues par les appareils.
 ---
 
-![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q4-2.PNG)
+![](https://github.com/IxSysTech/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/edit/master/images/Q4-2.PNG)
 
 ## Configuration IPsec
 
