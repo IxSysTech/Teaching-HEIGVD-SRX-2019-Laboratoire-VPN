@@ -28,8 +28,8 @@ Dans ce travail de laboratoire, vous allez configurer des routeurs Cisco émulé
 -	Capture Sniffer avec filtres précis sur la communication à épier
 -	Activation du mode « debug » pour certaines fonctions du routeur
 -	Observation des protocoles IPSec
- 
- 
+
+
 ## Matériel
 
 La manière la plus simple de faire ce laboratoire est dans les machines des salles de labo. Le logiciel d'émulation c'est eve-ng. Vous trouverez un [guide très condensé](files/Fonctionnement_EVE-NG.pdf) pour l'utilisation de eve-ng ici.
@@ -131,6 +131,7 @@ Pour votre topologie il est utile de contrôler la connectivité entre :
 ---
 
 **Réponse :**  
+
 Oui tous les pings ont fonctionné
 ---
 
@@ -154,6 +155,8 @@ Pour déclencher et pratiquer les captures vous allez « pinger » votre routeur
 ---
 
 **Screenshots :**  
+
+![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q3.PNG)
 
 ---
 
@@ -226,6 +229,8 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 
 **Réponse :**  
 
+![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q4-1.PNG)
+
 ---
 
 
@@ -236,6 +241,8 @@ Vous pouvez consulter l’état de votre configuration IKE avec les commandes su
 **Réponse :**  
 La commande permet d'afficher les clés détenues par les appareils.
 ---
+
+![](/home/david/Desktop/HEIG-VD/SRX/Teaching-HEIGVD-SRX-2019-Laboratoire-VPN/images/Q4-2.PNG)
 
 ## Configuration IPsec
 
